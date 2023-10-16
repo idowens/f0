@@ -1,0 +1,109 @@
+Filetype: IR signals file
+Version: 1
+# 
+# Disney World Contemporary Resort 
+# Samsung TV System using Ruwido 780A Remote
+# May or may not work at other resorts. Tried on 2 separate TVs successfully. 
+# Created October, 2023
+#
+name: Power (On/Off)
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 80 7F 00 00
+# 
+name: Volume +
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 8F 70 00 00
+# 
+name: Volume -
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 93 6C 00 00
+# 
+name: Select/Enter
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 95 6A 00 00
+# 
+name: Menu
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 90 6F 00 00
+# 
+name: Arrow up
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 98 67 00 00
+# 
+name: Arrow down
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 99 66 00 00
+# 
+name: Arrow Right
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 9A 65 00 00
+# 
+name: Arrow Left
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 9B 64 00 00
+# 
+name: Exit
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 9C 63 00 00
+# 
+name: Back
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 9D 62 00 00
+# 
+name: Guide
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: A2 5D 00 00
+# 
+name: Channel +
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 8D 72 00 00
+# 
+name: Channel -
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 91 6E 00 00
+# 
+name: Mute
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 97 68 00 00
+# 
+name: Play/Pause
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 9F 60 00 00
+# 
+name: Function
+type: parsed
+protocol: NECext
+address: 85 7F 00 00
+command: 92 6D 00 00
